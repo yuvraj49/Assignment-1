@@ -1,0 +1,180 @@
+body {
+	font-family: 'Neuton', serif;
+	margin: 0;
+
+}
+
+title {
+}
+
+header {
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+	z-index: 10;
+	height: 80px;
+}
+
+
+
+ul li a {
+	color: white;
+}
+
+
+nav li {
+	
+	padding-right: 20px;
+	color: white;
+}
+
+
+a {
+	text-decoration: none;
+
+}
+
+ul a:hover {
+	color: #FF0000;
+}
+
+
+input {
+
+	padding: 15px;
+	width: 250px;
+	margin: auto;
+	border-radius: 8px;
+	border-width: 0px;
+	font-family: 'Neuton', serif;
+	font-size: 20px;
+	border-color: black;
+}
+
+main {
+	margin-top: 500px;
+	z-index: 1;
+	background:#fff;
+	width: 100%;
+}
+
+p {
+	font-size: 20px;
+}
+
+img {
+	background-repeat: repeat;
+	width: 100%;
+
+	align-self: center;
+}
+
+
+footer {
+	margin-left: 10px;
+}
+
+.article-self {
+		flex: 1;
+		padding: 20px;
+		flex-basis: 30%
+		box-sizing: border-box;
+		
+}
+
+.head-container {
+	margin: 0;
+	display: flex;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	
+	/*
+	background-color: #464047;
+	position: fixed;
+	*/
+	
+
+}
+
+.head-container hover {
+	background-color: #464047;
+}
+
+.head-header {
+	flex: 2;
+	margin-left: 40px;
+}
+
+.head-nav {
+	flex: 1;
+	justify-content: space-between;
+	margin: auto;
+}
+
+
+
+.home-banner{
+	background: url("images/headphones.jpg");
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	background-attachment: fixed;
+	height: 800px;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.home-label {
+	font-size: 50px;
+	color:#ddd;
+	margin: 200px 200px 100px 200px;
+	
+
+}
+
+
+
+.main-header {
+	text-align:center;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 35px;
+	padding: 50px;
+	margin-top: 20px;
+}
+
+
+.search-bar {
+
+	padding:10px;
+	margin-top: 0;
+}
+
+
+section {
+	font-family: 'Architects Daughter', serif;
+}
+
+
+@media (min-width: 900px) {
+	
+	.article-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	nav li {
+		display: inline;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
