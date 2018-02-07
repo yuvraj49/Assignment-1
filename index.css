@@ -1,10 +1,6 @@
 body {
 	font-family: 'Neuton', serif;
 	margin: 0;
-
-}
-
-title {
 }
 
 header {
@@ -14,23 +10,17 @@ header {
 	height: 80px;
 }
 
-
-
 ul li a {
 	color: white;
 }
 
-
 nav li {
-	
 	padding-right: 20px;
 	color: white;
 }
 
-
 a {
 	text-decoration: none;
-
 }
 
 ul a:hover {
@@ -39,7 +29,6 @@ ul a:hover {
 
 
 input {
-
 	padding: 15px;
 	width: 250px;
 	margin: auto;
@@ -64,7 +53,6 @@ p {
 img {
 	background-repeat: repeat;
 	width: 100%;
-
 	align-self: center;
 }
 
@@ -78,7 +66,6 @@ h1 {
 		padding: 20px;
 		flex-basis: 30%
 		box-sizing: border-box;
-		
 }
 
 .head-container {
@@ -87,13 +74,10 @@ h1 {
 	position: fixed;
 	width: 100%;
 	top: 0;
-	
 	/*
 	background-color: #464047;
 	position: fixed;
 	*/
-	
-
 }
 
 .head-container hover {
@@ -111,8 +95,6 @@ h1 {
 	margin: auto;
 }
 
-
-
 .home-banner{
 	background: url("images/headphones.jpg");
 	background-size: cover;
@@ -129,11 +111,7 @@ h1 {
 	font-size: 50px;
 	color:#ddd;
 	margin: 200px 200px 100px 200px;
-	
-
 }
-
-
 
 .main-header {
 	text-align:center;
@@ -145,7 +123,6 @@ h1 {
 
 
 .search-bar {
-
 	padding:10px;
 	margin-top: 0;
 }
@@ -160,36 +137,26 @@ footer {
 	margin-left: 0px;
 	height: 330px;
 	background: black;
-
 }
 
 .foot-container {
 	height: 330px;
 	width: 80%;
 	margin:auto;
-
 	display: flex;
-	flex-direction: column;
-	
-
+	flex-direction: column;	
 }
 
-
-
 .footer-row-up {
-
 	flex: 5;
 	color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
 }
-
 
 .up-name {
 	flex: 0.8;
-
 }
 
 .company {
@@ -201,26 +168,20 @@ footer {
 }
 
 .company-base ul {
-
 	padding-left: 0px;
 	padding-right: 50px;
-
-
 }
-
-
-
-
 
 .social {
 	flex: 2;
+	margin:auto;
+	align-items: center;
+	justify-content: center;
 }
 
 .nav-title {
 	font-family: 'Architects Daughter', cursive;
-	
 }
-
 
 .footer-row-down {
 	flex: 1;
@@ -228,17 +189,14 @@ footer {
 	display: flex;
 	flex-direction: row;
 }
+
 .down-left {
 	flex: 1;
 }
+
 .down-right {
 	flex: 1;
 }
-
-
-
-
-
 
 @media (min-width: 900px) {
 	
@@ -250,15 +208,3 @@ footer {
 		display: inline;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
