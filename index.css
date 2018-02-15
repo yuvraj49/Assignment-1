@@ -1,65 +1,40 @@
 body {
-	font-family: 'Neuton', serif;
+	/*font-family: 'Neuton', serif;*/
 	margin: 0;
+	font-family: 'Quicksand', sans-serif;
 }
-
 header {
 	color: white;
 	font-family: 'Architects Daughter', cursive;
 	z-index: 10;
 	height: 80px;
 }
+/*text color of list item throughout to be white.*/
+/*all style related to list item is specied here.*/
 
 ul li a {
 	color: white;
 }
-
 nav li {
 	padding-right: 20px;
 	color: white;
 }
-
 a {
 	text-decoration: none;
 }
-
 ul a:hover {
 	color: #FF0000;
 }
-
-
-input {
-	padding: 15px;
-	width: 250px;
-	margin: auto;
-	border-radius: 8px;
-	border-width: 0px;
-	font-family: 'Neuton', serif;
-	font-size: 20px;
-	border-color: black;
-}
-
-main {
-	margin-top: 500px;
-	z-index: 1;
-	background:#fff;
-	width: 100%;
-}
-
 p {
 	font-size: 20px;
 }
-
 img {
 	background-repeat: repeat;
 	width: 100%;
 	align-self: center;
 }
 
-h1 {
-	margin-left: 0px;
-}
-
+/*for styles in each items of the article*/
 
 .article-self {
 		flex: 1;
@@ -67,33 +42,27 @@ h1 {
 		flex-basis: 30%
 		box-sizing: border-box;
 }
-
 .head-container {
 	margin: 0;
 	display: flex;
 	position: fixed;
 	width: 100%;
 	top: 0;
-	/*
-	background-color: #464047;
-	position: fixed;
-	*/
 }
-
 .head-container hover {
 	background-color: #464047;
 }
-
 .head-header {
 	flex: 2;
 	margin-left: 40px;
 }
-
 .head-nav {
 	flex: 1;
 	justify-content: space-between;
 	margin: auto;
 }
+
+/*styling the hero element with the background image of headphones*/
 
 .home-banner{
 	background: url("images/headphones.jpg");
@@ -106,39 +75,36 @@ h1 {
 	margin: 0;
 	text-align: center;
 }
-
 .home-label {
 	font-size: 50px;
 	color:#ddd;
 	margin: 200px 200px 100px 200px;
 }
-
 .main-header {
 	text-align:center;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 35px;
 	padding: 50px;
 	margin-top: 20px;
 }
 
+/*specific family applied to a section of articles*/
 
-.search-bar {
-	padding:10px;
-	margin-top: 0;
+.article-container {
+	font-family: 'Quicksand', sans-serif;
 }
-
 
 section {
-	font-family: 'Architects Daughter', serif;
+	font-family: 'Architects Daughter', cursive;
 }
 
+/*classes related to footer starts here*/
 
 footer {
 	margin-left: 0px;
 	height: 330px;
 	background: black;
 }
-
 .foot-container {
 	height: 330px;
 	width: 80%;
@@ -146,7 +112,6 @@ footer {
 	display: flex;
 	flex-direction: column;	
 }
-
 .footer-row-up {
 	flex: 5;
 	color: white;
@@ -154,11 +119,9 @@ footer {
 	flex-direction: row;
 	justify-content: space-between;
 }
-
 .up-name {
 	flex: 0.8;
 }
-
 .company {
 	flex: 0.6;
 	color: #929496;
@@ -166,37 +129,71 @@ footer {
     padding-top: 32px;
     font-size: 15px;
 }
-
 .company-base ul {
 	padding-left: 0px;
 	padding-right: 50px;
 }
-
 .social {
 	flex: 2;
 	margin:auto;
 	align-items: center;
 	justify-content: center;
 }
-
 .nav-title {
 	font-family: 'Architects Daughter', cursive;
 }
-
 .footer-row-down {
 	flex: 1;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
-
 .down-left {
 	flex: 1;
 }
-
 .down-right {
 	flex: 1;
 }
+
+
+/*styles related to three section values*/
+
+.three-section {
+	display: flex;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	height: 600px;
+	/*flex-direction: column;*/
+}
+
+.left-section {
+	flex: 1;
+	/*margin: auto;*/
+
+	padding-top: 60px;
+	margin: 100px 60px;
+}
+
+.right-section {
+	flex: 1;
+	display: flex;
+	margin-top: 50px;
+	flex-direction: column;
+}
+
+.right-section-self {
+	flex: 1;
+	margin-top: 80px;
+	/*margin: auto;*/
+}
+
+.btn-basic {
+	width: 120px;
+	height: 40px;
+	margin-top: 30PX;
+}
+
+/*responsiveness is applied to article and display line list items are changed*/
 
 @media (min-width: 900px) {
 	
